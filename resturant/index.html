@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Restaurant</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .hero {
+            background-image: url("image/rest.jpg");
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#hero">Little Restaurant</a>
+    <div class="collapse navbar-collapse justify-content-end" style="margin-right: 5px;" >
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+</div>
+</nav>
+
+<!-- Hero Section -->
+ <section id="hero">
+<div class="hero">
+    <div>
+        <h1 style="text-shadow: 2px 2px 2px black;">Welcome to Our Restaurant</h1>
+        <button class="btn btn-primary btn-lg">
+           <a href="#contact" style="color: white; text-decoration: none;">Reserve a Table</a>
+        </button>
+    </div>
+</div>
+</section>
+
+<!-- Menu Section -->
+ <section id="menu">
+<div class="container my-5">
+    <h2 class="text-center">Our Menu</h2>
+    <div class="row">
+        <div class="col-md-4 menu-item">
+            <img src="image/pizza.jpg" class="img-fluid">
+            <h5>Delicious Pizza</h5>
+            <p>Tomato, cheese, and fresh basil.</p>
+            <p><strong>$12.99</strong></p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="image/pasta.jpg" class="img-fluid">
+            <h5>Pasta Primavera</h5>
+            <p>Fresh vegetables and creamy sauce.</p>
+            <p><strong>$10.99</strong></p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="image/dessert.jpg" class="img-fluid">
+            <h5>Chocolate Cake</h5>
+            <p>Rich chocolate cake with vanilla frosting.</p>
+            <p><strong>$6.99</strong></p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="about">
+<!-- About Us Section -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="image/about.jpg" alt="About Us" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>Welcome to Little Restaurant, where culinary excellence meets heartwarming hospitality. Nestled in the heart of Nairobi, we take pride in serving dishes crafted with love, passion, and the freshest ingredients sourced from local farms. Our journey began with a simple mission: to bring together the vibrant flavors of global cuisine with the charm and warmth of a neighborhood eatery.</p>
+            <p>
+                At Little Restaurant, we believe that food is more than just sustenance; it’s an experience. Whether you're joining us for a casual lunch, a romantic dinner, or a family celebration, we aim to make every meal memorable. Our carefully curated menu features a variety of dishes, from traditional favorites to modern culinary creations, ensuring that there’s something for everyone.
+            </p>
+            <p>
+                Come join us for an extraordinary dining adventure, where each dish tells a story, and every guest becomes part of our family!
+
+
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+ <section id="contact">
+<div class="container my-5" style="width: 60%;" >
+    <h2 style="text-align: center;">Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <p>&copy; 2024 Little  Restaurant. All rights reserved.</p>
+    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
